@@ -1,9 +1,10 @@
+function takeANumber(line, name){
+  line.push(name);
 
-function takeANumber(person, line)  {
+  console.log("Welcome, " + name + ". You are number " + line.length + " in line.");
 
-  console.log("Welcome, ${person}. You are number ${line} in line")
-
+  return "Welcome, " + name + ". You are number " + line.length + " in line."
 }
-
-takeANumber("Ada", 1)
-takeANumber("Grace", 2)
+takeANumber(katzDeli, "Ada")
+takeANumber(katzDeli, "Grace")
+takeANumber(katzDeli, "Kent")
