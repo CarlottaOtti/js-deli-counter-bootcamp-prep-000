@@ -19,4 +19,4 @@ function nowServing(line) {
   }
 }
 
-nowServing(katzDeliLine)
+nowServing(katzDeli)
